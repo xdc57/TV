@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mi TV - Prueba</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #101014;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      padding: 18px 24px;
+      background: #20202a;
+      font-size: 22px;
+      font-weight: bold;
+    }
+    .player {
+      width: 100%;
+      height: calc(100vh - 70px);
+      border: 0;
+      background: black;
+    }
+  </style>
+</head>
+<body>
+  <header>Mi TV | DSports Plus</header>
+
+  <iframe
+    class="player"
+    src="https://streamx723.sbs/global1.php?channel=dsportsplus"
+    allow="autoplay; fullscreen; encrypted-media"
+    allowfullscreen>
+  </iframe>
+</body>
+</html>
